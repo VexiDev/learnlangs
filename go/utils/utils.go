@@ -18,8 +18,8 @@ func AssertSlicesEqual[V comparable](t testing.TB, expected, actual []V) {
 	}
 	for i := 0; i < len(expected); i++ {
 		if actual[i] != expected[i] {
-			t.Errorf("Value mismatch at index %d: expected %v, found %v",
-				i, expected[i], actual[i])
+			t.Errorf("Value mismatch at index %d of %v: expected %v, found %v",
+				i, actual, expected[i], actual[i])
 		}
 	}
 }
