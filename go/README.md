@@ -1,5 +1,5 @@
 
-#### Repository of all projects for learning Go
+### Repository of all my projects for learning Go
 
 > [!NOTE]
 > Any guides will generally be followed in order but I may deviate from them slightly to explore random ideas I have<br>
