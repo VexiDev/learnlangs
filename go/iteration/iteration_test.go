@@ -7,12 +7,11 @@ import (
 
 func TestRepeat(t *testing.T) {
 
-	t.Run("repeat 'a' 5 times",
-		func(t *testing.T) {
-			expected := "aaaaa"
-			got := Repeat("a")
+	t.Run("repeat 'a' 5 times", func(t *testing.T) {
+		expected := "aaaaa"
+		got := Repeat("a")
 
-			utils.AssertEquals(t, expected, got)
-		})
+		utils.AssertEquals(t, expected, got)
+	})
 
 }
