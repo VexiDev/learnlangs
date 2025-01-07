@@ -9,25 +9,24 @@
 
 
 #### Knowledge goals:
-- To familiarize myself with:
-    1. go syntax 
-    2. the go test suite
-    3. thinking with pointers
+- Familiarize myself with:
+    1. [ ] go syntax 
+    2. [ ] the go test suite
+    3. [ ] thinking with pointers
 
 - Learn:
-    1. go patterns and anti-patterns
-    2. how to write HTTP servers with Go
-    3. Database management in Go
+    1. [ ] go patterns and anti-patterns
+    2. [ ] how to write HTTP servers with Go
+    3. [ ] Database management in Go
 
 #### Project goal:
-1. Syntax projects
-    - calculator, weather, todo list, etc
-2. HTTP server
-3. REST API
-4. CRUD implementation
-5. RESTful CRUD system
-6. Authentication Service
+1. [ ] Syntax projects (calculator, weather, todo list, etc..)
+2. [ ] HTTP server
+3. [ ] REST API
+4. [ ] CRUD implementation
+5. [ ] RESTful CRUD system
+6. [ ] Authentication Service
 
 #### Capstone Project
-1. A RESTful CRUD api for interacting with a database
+1. [ ] A RESTful CRUD api for interacting with a database
 
