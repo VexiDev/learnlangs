@@ -1,7 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"testing"
+
 	"vexi.gg/utils"
 )
 
@@ -13,6 +15,10 @@ func TestAdd(t *testing.T) {
 
 			utils.AssertEquals(t, expected, got)
 		})
+}
 
-
+func ExampleAdd() {
+	sum := Add(1, 5)
+	fmt.Println(sum)
+	// Output: 6
 }
