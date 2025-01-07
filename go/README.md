@@ -1,9 +1,9 @@
 
 #### Repository of all projects for learning Go
 
-[!NOTE]
-Any guides will generally be followed in order but I may deviate from them slightly to explore random ideas I have<br>
-**Resources:**<br>
+> [!NOTE]
+> Any guides will generally be followed in order but I may deviate from them slightly to explore random ideas I have<br>
+> **Resources:**<br>
 > ["Learn Go with tests"](https://quii.gitbook.io/learn-go-with-tests) by [@quii](https://x.com/quii)<br>
 > ["Learning Go, 2nd Edition"](https://www.oreilly.com/library/view/learning-go-2nd/9781098139285/) by Jon Bodner
 
