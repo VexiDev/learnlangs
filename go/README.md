@@ -1,9 +1,10 @@
 
-#### Repository for all learning projects in Go
+#### Repository of all projects for learning Go
 
-[!Note]
+[!NOTE]
+Any guides will generally be followed in order but I may deviate from them slightly to explore random ideas I have<br>
 **Resources:**<br>
-> ["Learn Go with tests"](https://quii.gitbook.io/learn-go-with-tests) by [@quii](https://x.com/quii)
+> ["Learn Go with tests"](https://quii.gitbook.io/learn-go-with-tests) by [@quii](https://x.com/quii)<br>
 > ["Learning Go, 2nd Edition"](https://www.oreilly.com/library/view/learning-go-2nd/9781098139285/) by Jon Bodner
 
 
@@ -28,5 +29,5 @@
 6. Authentication Service
 
 #### Capstone Project
-1. A RESTful CRUD api for interacting with the Quotebot Database
+1. A RESTful CRUD api for interacting with a database
 
