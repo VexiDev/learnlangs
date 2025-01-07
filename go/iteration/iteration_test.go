@@ -13,14 +13,14 @@ func TestRepeat(t *testing.T) {
 		expected := "aaaaa"
 		got := Repeat("a", 5)
 
-		utils.AssertEquals(t, expected, got)
+		utils.AssertEqual(t, expected, got)
 	})
 
 	t.Run("repeat 'a' -5 times", func(t *testing.T) {
 		expected := ""
 		got := Repeat("a", -5)
 
-		utils.AssertEquals(t, expected, got)
+		utils.AssertEqual(t, expected, got)
 	})
 
 }

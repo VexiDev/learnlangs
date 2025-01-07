@@ -12,7 +12,7 @@ func TestAdd(t *testing.T) {
 		expected := 3
 		got := Add(1, 2)
 
-		utils.AssertEquals(t, expected, got)
+		utils.AssertEqual(t, expected, got)
 	})
 }
 
