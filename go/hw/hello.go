@@ -12,7 +12,7 @@ func Hello(name, lang string) string {
 	if name == "" {
 		name = "world"
 	}
-    prefix := englishPrefix
+	prefix := englishPrefix
 	switch lang {
 	case "fr":
 		prefix = frenchPrefix
