@@ -8,7 +8,7 @@ import (
 func TestHello(t *testing.T) {
 	t.Run("Say hello",
 		func(t *testing.T) {
-			got := Hello("vexi")
+			got := Hello("vexi", "en")
 			expected := "Hello vexi!"
 
 			utils.AssertEquals(t, expected, got)
@@ -16,9 +16,33 @@ func TestHello(t *testing.T) {
 
 	t.Run("Say hello with empty string",
 		func(t *testing.T) {
-			got := Hello("")
 			expected := "Hello world!"
+			got := Hello("", "en")
 
 			utils.AssertEquals(t, expected, got)
 		})
+
+    t.Run("Say hello in french", 
+    func(t *testing.T) {
+        expected := "Bonjour vexi!"
+        got := Hello("vexi", "fr")
+
+        utils.AssertEquals(t, expected, got)
+    })
+
+    t.Run("Say hello in spanish",
+    func(t *testing.T) {
+        expected := "Hola vexi!"
+        got := Hello("vexi", "sp")
+
+        utils.AssertEquals(t, expected, got)
+    })
+
+    t.Run("Unknown language defaults to en",
+    func(t *testing.T) {
+        expected := "Hello vexi!"
+        got := Hello("vexi", "unkown")
+
+        utils.AssertEquals(t, expected, got)
+    })
 }
