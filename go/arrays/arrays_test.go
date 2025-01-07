@@ -26,4 +26,11 @@ func TestSumAll(t *testing.T) {
 
 		utils.AssertSlicesEqual(t, expected, got)
 	})
+
+	t.Run("Sum of 1 slice", func(t *testing.T) {
+		got := SumAll([]int{1, 1, 1})
+		expected := []int{3}
+
+		utils.AssertSlicesEqual(t, expected, got)
+	})
 }
