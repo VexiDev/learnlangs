@@ -1,12 +1,24 @@
 package main
 
-import "testing"
+import (
+	"testing"
+	"vexi.gg/utils"
+)
 
 func TestHello(t *testing.T) {
-	got := Hello("vexi")
-	expected := "Hello vexi!"
+	t.Run("Say hello",
+		func(t *testing.T) {
+			got := Hello("vexi")
+			expected := "Hello vexi!"
 
-	if got != expected {
-		t.Errorf("got %q expected %q", got, expected)
-	}
+			utils.AssertEquals(t, expected, got)
+		})
+
+	t.Run("Say hello with empty string",
+		func(t *testing.T) {
+			got := Hello("")
+			expected := "Hello world!"
+
+			utils.AssertEquals(t, expected, got)
+		})
 }
